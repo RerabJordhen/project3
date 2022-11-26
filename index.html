@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap 5 Example</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    
+    <div id="first">
+        <ul class="breadcrumb">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Private</a></li>
+            <li><a href="#">Pictures</a></li>
+            <li class="active">Vacation</li>        
+          </ul>
+    </div>
+    <img
+      src="image\1073840919.jpg"
+      class="rounded-circle"
+      alt="Cinque-Terre"
+      width="104"
+      height="104"
+    />
+    <div class="love">
+      <h1>Always Love Game!!!</h1>
+
+      <p>
+        Basketball is a game played between two teams of five players each on a
+        rectangular court, usually indoors. Each team tries to score by tossing
+        the ball through the opponent's goal, an elevated horizontal hoop and
+        net called a basket.
+      </p>
+      <div class="btn-group">
+        <button type="button" class="btn btn-primary">Like</button>
+        <button type="button" class="btn btn-primary">Share</button>
+        <div class="btn-group">
+          <button
+            type="button"
+            class="btn btn-primary dropdown-toggle"
+            data-bs-toggle="dropdown"
+          >
+            About
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Personal Imformation</a></li>
+            <li><a class="dropdown-item" href="#">Members</a></li>
+          </ul>
+        </div>
+      </div>
+      <button type="button" class="btn">
+        <span class="glyphicon glyphicon-search"></span> Search
+      </button>
+    </div>
+    <button type="button" class="btn btn-primary">
+      Subscrib <span class="badge bg-danger">10,000</span>
+    </button>
+    <div class="container-fluid">
+      <h1>Three Famous Players</h1>
+      <p>
+        A basketball player is an athlete who plays the sport of basketball.
+        Basketball players can play a variety of positions such as point guard,
+        shooting guard.
+      </p>
+      <div class="row">
+        <div class="col p-3 bg-primary text-white">Michel Jordan</div>
+        <div class="col p-3 bg-dark text-white">Magic Johson</div>
+        <div class="col p-3 bg-primary text-white">LeBron James</div>
+      </div>
+    </div>
+    
+    <div class="flex-wrapper">
+      <!-- Left column with the profile image and name -->
+      <div class="flex-item left-col">
+        <div class="profile-img-container">
+          <img src="image\rerab.jpg" />
+        </div>
+
+        <div class="info-container">
+          <h2>Rerab Jordhen</h2>
+          <h4>Higher School Student</h4>
+          <h3 id="location">Thimphu</h3>
+          <ul>
+            <li>Followers:<span>10</span></li>
+            <li>Following:<span>20</span></li>
+            <li>Total Identified: <span>100</span></li>
+          </ul>
+          <div class=" mt-3">
+            <button type="button" class="btn-primary" data-bs-toggle="collapse"data-bs-toggle="tooltip" title="click" data-bs-target="#demo">Click to Know more about me!</button>
+            <div id="demo" class="collapse">
+                <ul class="list-group">
+                <li class="list-group-item list-group-item-info">CID: 11505006480</li>
+                <li class="list-group-item list-group-item-warning">Email: rerab17@gmail.com</li>
+                <li class="list-group-item list-group-item-danger">Phone No: 77203865/17322879</li>
+                <li class="list-group-item list-group-item-primary">Location: Youngphula,</li>
+            </ul>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+
+      <!-- Right column with the image gallery -->
+      <div class="flex-item right-col">
+        <h2 id="bio-heading">Important of Basketball</h2>
+        <p>
+          Playing basketball helps to improve motor coordination, flexibility,
+          and endurance. It also encourages speed, agility, and strength. These
+          skills are shown to have a positive effect on promoting a healthy body
+          weight and encouraging more physical activity, which can enhance
+          cardiorespiratory fitness and self-esteem.
+        </p>
+
+        <h2 id="gallery-heading">Basketball</h2>
+
+        <!-- Image gallery -->
+        <div class="gallery-wrapper">
+          <div class="gallery-item">
+            <img src="image\HD-wallpaper-basketball-mrcreativez.jpg" />
+            <h4>Game</h4>
+          </div>
+
+          <div class="gallery-item">
+            <img
+              src="image\HD-wallpaper-mj-the-goat-23-basketball-sports-michael-bulls-jordan-michael-jordan-nba-chicago.jpg"
+            />
+            <h4>Love</h4>
+          </div>
+
+          <div class="gallery-item">
+            <img src="image\9711eca6641587f9bb0eabd54ef9427e.jpg" />
+            <h4>play</h4>
+          </div>
+        </div>
+      </div>
+
+      <!-- Closing tag for entire flexbox wrapper -->
+    </div>
+    <div class="well">
+      “I’ve missed more than 9000 shots in my career. I’ve lost almost 300
+      games. 26 times, I’ve been trusted to take the game winning shot and
+      missed. I’ve failed over and over and over again in my life. And that is
+      why I succeed.“-Michael Jordan
+      <div class="mt-3">
+        
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+          Click read History of Basketball
+        </button>
+      </div>
+      
+      <!-- The Modal -->
+      <div class="modal" id="myModal">
+        <div class="modal-dialog modal-dialog-scrollable">
+          <div class="modal-content">
+      
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">History of Basketball</h4>
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+      
+            <!-- Modal body -->
+            <div class="modal-body">
+              <h3>Always in love with basketball.</h3>
+              <p>Basketball was invented by James Naismith in Springfield, Massachusetts, in 1891. Within a few decades, the new game became popular throughout the United States as an indoor sport. The popularity spread overseas and the International Basketball Federation (FIBA) was organized in 1932 in Geneva, Switzerland.
+
+                Thanks in part to the effort of Phog Allen[46][47]—a Kansas Jayhawks collegiate coach—the first Olympic basketball tournament was organized in the 1936 Berlin Olympics on outdoor tennis courts. Dr. Naismith presented the medals to the top three teams. According to the Olympic rules of that time, all of the competitors were amateurs. The tournament was held indoors for the first time in 1948. The American team proved its dominance, winning the first seven Olympic tournaments through 1968, without losing a single game. While the Americans were barred from sending a team that contained players from the professional National Basketball Association, they instead sent in college players; teams from some other countries sent in their best players, as some of their players were classified as "amateur" by FIBA, by earning allowances instead of wages.</p>
+              <p>The U.S. winning streak ended in 1972 in one of the most controversial matches in history, when the Soviet Union beat them in the gold-medal game by one point.
+
+                The U.S. team reclaimed the gold medal in 1976, with Yugoslavia, which had beaten the Soviet Union in the semifinal, finishing runner-up for the second time. In 1980, with the Americans' absence due to the boycott, Yugoslavia became the third team to win the title, after beating the Soviets anew in the semifinals and Italy in the final.</p>
+      
+              <p>The Americans regained the title in 1984, by beating Spain in the final, with the Soviets boycotting this time. The Soviets won the gold medal for the second time in 1988, after beating the U.S. team for the second time in the semifinal, and the Yugoslavs in the gold medal game.</p> 
+            </div>
+      
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+            </div>
+      
+          </div>
+        </div>
+      </div>
+      
+      
+    </div>
+    <div class="mt-4 p-5 bg-black text-white rounded">
+      <h1>About Michael Jordan</h1>
+      <p>
+        Michael Jeffrey Jordan, also known by his initials MJ, is an American
+        businessman and former professional basketball player. His biography on
+        the official NBA website states: "By acclamation, Michael Jordan is the
+        greatest basketball player of all time."
+      </p>
+      <div class="alert alert-info">
+        <strong>Info!</strong> Michael Jeffrey Jordan (born February 17, 1963),
+        also known by his initials MJ, is an American businessman and former
+        professional basketball player.
+      </div>
+      
+      </div>
+      
+    </div>
+    <div class="container">
+        <h4>Love Basket Ball</h4>
+        <div class="panel panel-default">
+            
+          <div class="panel-heading">Lovely Basketball</div>
+          <div class="panel-body">Basketball is a team sport in which two teams, most commonly of five players each, opposing one another on a rectangular court, compete with the primary objective of shooting a basketball (approximately 9.4 inches (24 cm) in diameter) through the defender's hoop (a basket 18 inches (46 cm) in diameter mounted 10 feet (3.048 m) high to a backboard at each end of the court, while preventing the opposing team from shooting through their own hoop. A field goal is worth two points, unless made from behind the three-point line, when it is worth three. </div>
+        </div>
+            <!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+    
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="image\bb1.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+        <div class="carousel-caption">
+          <h3>always Basketball</h3>
+          <p>We had such a great time in Basketball court!</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="image\bb3.jpg" alt="Chicago" class="d-block" style="width:100%">
+        <div class="carousel-caption">
+          <h3>Love Game</h3>
+          <p>Thank you, Ball!</p>
+        </div> 
+      </div>
+      <div class="carousel-item">
+        <img src="image\bb4.jpg" alt="New York" class="d-block" style="width:100%">
+        <div class="carousel-caption">
+          <h3>Small Game </h3>
+          <p>Biggest Happiness</p>
+        </div>  
+      </div>
+    </div>
+      </div>
+    <div class="container mt-3">
+        <h2>Basketball Players Information</h2>
+        <div class="progress">
+          <div class="progress-bar bg-success" style="width:50%">
+            Game Played
+          </div>
+          <div class="progress-bar bg-warning" style="width:30%">
+           Injured
+          </div>
+          <div class="progress-bar bg-danger" style="width:20%">
+            Personal Problem
+          </div>
+        </div>
+      </div>
+      <div class="container mt-3">
+        <ul class="list-group">
+          <li class="list-group-item list-group-item-success">Game Played = 15min/ 4 quarter</li>
+          <li class="list-group-item list-group-item-secondary">injured = leg, body and hand injured</li>
+          <li class="list-group-item list-group-item-info">personal Problem = individual</li>
+          <li class="list-group-item list-group-item-warning">other quaries</li>
+        </ul>
+      </div>
+
+  
+    
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+  
+  <div class="container-fluid mt-3">
+    <h3>Carousel Example</h3>
+    <p>The following example shows how to create a basic carousel with indicators and controls.</p>
+  </div>
+      
+
+  <div class="verry" data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+      <div class="container-fluid">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#section1">The Basketball Game</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section2">The Cost of Running a NBA Basketball Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section3">Changes in NBA History</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    
+    <div id="section1" class="container-fluid bg-success text-white" style="padding:100px 20px;">
+      <h1>The Basketball Game</h1>
+      <p>A basketball is a vital component in the game of basketball at the playing field, commonly referred to as a court and the basket. The lighter the basketball, the easier it is to roll the </p>
+    </div>
+    
+    <div id="section2" class="container-fluid bg-warning" style="padding:100px 20px;">
+      <h1>The Cost of Running a NBA Basketball Team</h1>
+      <p>The estimated value is derived from a breakdown of various aspects such as; Sport which contribute 52% of the total worth Stadium which contribute 16% of the total worth Market which contribute 24% of the </p>
+    </div>
+    
+    <div id="section3" class="container-fluid bg-secondary text-white" style="padding:100px 20px;">
+      <h1>Changes in NBA History</h1>
+      <p>Kirchberg makes a comparison of the growth of the league to the growth of athletes by noting that the league has grown “From the first superstar, center George Mikan of the Minneapolis Lakers, to its</p>
+    </div>
+    
+</div>
+
+
+    <!-- table -->
+    <div class="container mt-3">
+      <h2>Members Of Lover</h2>
+      <table class="table table-dark table-striped">
+        <thead>
+          <tr>
+            <th>Name:</th>
+            <th>CID</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Rerab Jordhen</td>
+            <td>11505006480</td>
+            <td>rerab17@gmail.com</td>
+          </tr>
+          <tr>
+            <td>Namgay Choden</td>
+            <td>11206006454</td>
+            <td>namgayc7@gmail.com</td>
+          </tr>
+          <tr>
+            <td>Yeshi Dema</td>
+            <td>116005003421</td>
+            <td>yeshi12@gmail.com</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="choden">
+        <h2>Members</h2>
+        <p> "Your time is limited, so don’t waste it living someone else’s life. Don’t be trapped by dogma – which is living with the results of other people’s thinking." – Steve Jobs</p><br>
+        <div class="media">
+          <div class="media-left">
+            <img src="image\rerab.jpg" class="media-object" style="width:45px">
+          </div>
+          <div class="media-body">
+            <h4 class="media-heading">Rerab Jordhen<small><i>Posted on February 19, 2022</i></small></h4>
+            <p>A design is a plan or specification for the construction of an object or system or for the implementation of an activity or process or the result of that plan or specification in the form of a prototype, product, or process. </p>
+            
+            <!-- Nested media object -->
+            <div class="media">
+              <div class="media-left">
+                <img src="image\photo_6053223531870794857_y.jpg" class="media-object" style="width:45px">
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">Namgay Choden<small><i>Posted on February 19, 2022</i></small></h4>
+                <p>An artist is a person engaged in an activity related to creating art, practicing the arts, or demonstrating an art. The common usage in both everyday speech and academic discourse refers to a practitioner in the visual arts only.</p>
+      
+                <!-- Nested media object -->
+                <div class="media">
+                  <div class="media-left">
+                    <img src="image\yeshi.jpg" class="media-object" style="width:45px">
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading">Yeshi Dema<small><i>Posted on February 19, 2022</i></small></h4>
+                    <p>"Artiste" (French for artist) is a variant used in English in this context, but this use has become rare. Use of the term "artist" to describe writers is valid, but less common, and mostly restricted to contexts like used in criticism.</p>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+    <div class="namgay">
+        <h2>Fill up the forms</h2>
+        <form class="form-horizontal" action="/action_page.php">
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="email">Email:</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="pwd">Password:</label>
+            <div class="col-sm-10">          
+              <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+            </div>
+          </div>
+          <div class="form-group">        
+            <div class="col-sm-offset-2 col-sm-10">
+              <div class="checkbox">
+                <label><input type="checkbox" name="remember"> Remember me</label>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">        
+            <div class="col-sm-offset-2 col-sm-10">
+              <button type="submit" class="btn btn-default">Submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
+      
+    <ul class="pager">
+        <li class="previous"><a href="#">Previous</a></li>
+        <li class="next"><a href="#">Next</a></li>
+      </ul>
+    <script src="script.js"></script>
+  </body>
+  
+</html>
